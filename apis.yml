@@ -1,8 +1,23 @@
 aid: moxxie-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moxxie-ventures.png
 name: Moxxie Ventures
-description: Moxxie Ventures is a company surfaced as a portfolio company of bloomberg-beta, foundry-group
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Moxxie Ventures is an early-stage (pre-seed and seed) venture capital firm founded in 2019
+  by Katie Jacobs Stanton, backing exceptional, technical founders building a better future. The firm
+  writes $500K-$2M checks (typically ~$1.5M for roughly 10% ownership) across enterprise software, climate,
+  consumer, fintech, healthcare, infrastructure (dev platforms, robotics, autonomy) and vertical AI, and
+  has raised three funds including a $95M third fund in 2024. Its 100+ portfolio companies include Airtable,
+  Calm, Carta, Coinbase, Lime, Opendoor and Tipalti. Moxxie publishes no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/moxxie-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +26,22 @@ x-backed-by:
 - foundry-group
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Venture Capital
+- Investment
+- Seed Stage
+- Early Stage
+- Fund
+- Vertical AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/moxxie-ventures-domain-security.yml
 - type: Website
   url: https://www.moxxie.vc/
+- type: X
+  url: https://twitter.com/moxxieventures
+- type: LinkedIn
+  url: https://www.linkedin.com/company/moxxie-ventures
+- type: Careers
+  url: https://careers.moxxie.vc/
