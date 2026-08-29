@@ -30,6 +30,9 @@ description: Moxxie Ventures is an early-stage (pre-seed and seed) venture capit
   has raised three funds including a $95M third fund in 2024. Its 100+ portfolio companies include Airtable,
   Calm, Carta, Coinbase, Lime, Opendoor and Tipalti. Moxxie publishes no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/moxxie-ventures/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Moxxie publishes no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
